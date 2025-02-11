@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* İçeriği sayfanın alt kısmına kaydırır */
+  align-items: center;
+  height: 100vh; /* Sayfa yüksekliği */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4 em; /* Başlık boyutunu küçült */
+  margin-bottom: -15px; /* Başlık ile içerik arasındaki boşluğu azalt */
+}
+
+ul {
+  gap: 15px; /* Kartlar arasındaki boşluğu azalt */
+  padding: 0;
+}
+
+li {
+  width: 150px; /* Kart genişliğini ayarla */
+  padding: 10px; /* İç boşlukları küçült */
+  font-size: 0.9em; /* Yazı boyutunu küçült */
+  border: 1px solid #ccc; /* Kart kenarlığı */
+  border-radius: 6px; /* Köşeleri yuvarla */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+strong {
+  font-size: 0.85em; /* Vurgulanan metinleri küçült */
+  color: #333;
+}
+
+.skor {
+  font-size: 0.9em; /* Skor yazısını küçült */
+  font-weight: bold;
+  color: #e74c3c;
+}
